@@ -16,3 +16,10 @@
   box-sizing: border-box;
   font-family: "Opensans", sans-serif;
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: hsl(218, 28%, 13%);
+  color: white;
+}
