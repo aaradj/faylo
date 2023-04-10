@@ -1,18 +1,18 @@
 /* Header Font Family */
 @font-face {
   font-family: Raleway;
-  src: url(https://fonts.google.com/specimen/Raleway);
+  src: url(../assets/fonts/static/Raleway-Regular.ttf);
 }
 
 /* Body Font Family */
 @font-face {
   font-family: Opensans;
-  src: url(https://fonts.google.com/specimen/Open+Sans);
+  src: url(../assets/fonts/static/OpenSans-Regular.ttf);
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
 }

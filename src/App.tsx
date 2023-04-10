@@ -1,7 +1,11 @@
-import React from "react";
+import Main from "./page";
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <Main />
+    </div>
+  );
 }
 
 export default App;
