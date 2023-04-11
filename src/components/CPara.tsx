@@ -7,11 +7,9 @@ interface CParaProps {
 
 // Custom Style
 const CParaStyle = {
+  color:"white",
   fontSize: "1rem",
   fontFamily: "Raleway",
-  "@media(max-width:700px)": {
-    fontSize: ".8rem",
-  },
 };
 
 const CPara = (props: CParaProps): JSX.Element => {
