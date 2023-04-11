@@ -1,14 +1,18 @@
 import { useState } from "react";
 // Styled Component
-import { Box } from "@mui/material";
 import styled from "styled-components";
-import CPara from "../CPara";
+// Material Ui Components
+import { Box } from "@mui/material";
+// Material Ui Icons
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+// custome Compoents
+import CPara from "../CPara";
+// Styles
 import { menuStyle, navStyle } from "./headerStyle";
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
   const Ul = styled.ul`
     display: flex;
     align-items: center;
