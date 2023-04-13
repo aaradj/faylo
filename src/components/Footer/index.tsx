@@ -13,8 +13,6 @@ const Main = styled.footer`
   display: flex;
   flex-direction: column;
   background: ${MainBg};
-  position: absolute;
-  bottom: 0;
 `;
 const BoxStyle = {
   display: "flex",
@@ -22,6 +20,10 @@ const BoxStyle = {
   justifyContent: "center",
   width: "100%",
   padding: "2rem 0",
+  "@media(max-width:700px)":{
+    flexDirection:"column",
+    gap:"2rem"
+  }
 };
 
 const BoxArticle = {
@@ -30,6 +32,10 @@ const BoxArticle = {
   flexDirection: "column",
   alignItems: "center",
   gap: "1rem",
+  "@media(max-width:700px)":{
+    width: "100%",
+    alignItems: "start",
+  }
 };
 
 const SocailMedia = {
@@ -37,6 +43,10 @@ const SocailMedia = {
   display: "flex",
   justifyContent: "center",
   gap: "1rem",
+  "@media(max-width:700px)":{
+    width: "100%",
+    justifyContent:"start",
+  }
 };
 
 const Logos = { color: "white", "&:hover": { color: Inside } };
@@ -52,7 +62,10 @@ function Footer() {
         </svg>
       </Box>
       <Box sx={BoxStyle}>
-        <Box sx={{ display: "flex", flexWrap: "wrap", width: "20%" }}>
+        <Box sx={{ display: "flex", flexWrap: "wrap", width: "20%" ,  "@media(max-width:700px)":{
+    width: "100%",
+    alignItems: "start",
+  } }}>
           <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M6.188 0C2.74 0 0 2.79 0 6.3 0 10.98 6.188 18 6.188 18s6.187-7.02 6.187-11.7c0-3.51-2.74-6.3-6.188-6.3zm0 8.55c-1.238 0-2.21-.99-2.21-2.25s.972-2.25 2.21-2.25c1.237 0 2.21.99 2.21 2.25s-.973 2.25-2.21 2.25z"
@@ -74,7 +87,7 @@ function Footer() {
                 fill-rule="evenodd"
               />
             </svg>
-            <CPara>+1-543-123-4567</CPara>
+            <p>+1-543-123-4567</p>
           </Box>
           <Box sx={{ display: "flex", gap: ".5rem", alignItems: "center" }}>
             <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg">
