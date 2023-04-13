@@ -1,10 +1,15 @@
+// Material Ui Components
 import { Box } from "@mui/material";
-import {  Inside } from "../../style/colors";
+// Material Ui Icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
+// Colors
+import { Inside } from "../../style/colors";
+// Custome Components
 import CPara from "../CPara";
 
+// Styles
 const BoxStyle = {
   display: "flex",
   alignItems: "start",
@@ -41,6 +46,7 @@ const SocailMedia = {
 };
 
 const Logos = { color: "white", "&:hover": { color: Inside } };
+
 function AboutUs() {
   return (
     <Box sx={BoxStyle}>
