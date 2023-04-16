@@ -13,11 +13,16 @@ function Location(): JSX.Element {
     img {
       width: 50%;
     }
-    @media(max-width:700px){
-        flex-direction:column;
-        img{
-            width:100%;
-        }
+    @media (max-width: 700px) {
+      flex-direction: column;
+      img {
+        width: 400px;
+      }
+    }
+    @media (max-width: 400px) {
+      img {
+        width: 100%;
+      }
     }
   `;
   const Div = styled.div`
@@ -25,8 +30,8 @@ function Location(): JSX.Element {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    @media(max-width:700px){
-        width:100%;
+    @media (max-width: 700px) {
+      width: 100%;
     }
   `;
   return (

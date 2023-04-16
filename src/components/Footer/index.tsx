@@ -11,8 +11,6 @@ const Main = styled.footer`
   width: 100%;
   height: fit-content;
   padding: 3rem;
-  display: flex;
-  flex-direction: column;
   background: ${MainBg};
 `;
 
