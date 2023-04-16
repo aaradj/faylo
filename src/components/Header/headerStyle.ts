@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HeaderStyle = styled.div`
   width: 100%;
-  padding: 3rem;
+  padding:.8rem 2rem;
   position: fixed;
   top: 0;
   display: flex;

@@ -1,13 +1,13 @@
 /* Header Font Family */
 @font-face {
   font-family: Raleway;
-  src: url(../assets/fonts/static/Raleway-Regular.ttf);
+  src: url(./assets/fonts/static/Raleway-Regular.ttf);
 }
 
 /* Body Font Family */
 @font-face {
   font-family: Opensans;
-  src: url(../assets/fonts/static/OpenSans-Regular.ttf);
+  src: url(./assets/fonts/static/OpenSans-Regular.ttf);
 }
 
 * {
