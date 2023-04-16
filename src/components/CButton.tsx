@@ -13,6 +13,7 @@ interface ButtonProps {
 const ButtonStyle = {
   background: Cyan,
   color: "white",
+  zIndex:"0",
   fontSize: "1rem",
   fontWeight: "bold",
   fontFamily: "Raleway",

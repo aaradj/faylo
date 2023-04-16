@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const HeaderStyle = styled.div`
   width: 100%;
-  padding:.8rem 2rem;
+  padding:1rem 2rem;
   position: fixed;
+  height:5vh;
   top: 0;
   display: flex;
   align-itmes: center;

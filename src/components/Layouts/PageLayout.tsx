@@ -8,7 +8,7 @@ interface PageLayoutProps {
 
 // Styles
 const LayoutStyle = styled.div`
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,12 +17,12 @@ const LayoutStyle = styled.div`
   }
 `;
 const Container = styled.div`
-width: 100%;
-height: 100vh;
-&: @media (max-width: 700px) {
-  padding: 1rem;
-}
-`
+  width: 100%;
+  height: 100vh;
+  &: @media (max-width: 700px) {
+    padding: 1rem;
+  }
+`;
 
 const PageLayout = (props: PageLayoutProps): JSX.Element => {
   return (

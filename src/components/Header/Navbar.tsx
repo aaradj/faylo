@@ -35,6 +35,7 @@ function Navbar() {
       border: 1px solid rgba(255, 255, 255, 0.3);
       flex-direction: column;
       justify-content: space-evenly;
+      z-index:1;
     }
   `;
 
