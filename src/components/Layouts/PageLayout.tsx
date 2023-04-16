@@ -8,7 +8,7 @@ interface PageLayoutProps {
 
 // Styles
 const LayoutStyle = styled.div`
-  padding: 2rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
