@@ -3,7 +3,7 @@ import React from "react";
 import { Button } from "@mui/material";
 
 // Color
-import { Cyan } from "../style/colors";
+import { Cyan, Inside } from "../style/colors";
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -19,7 +19,7 @@ const ButtonStyle = {
   fontFamily: "Raleway",
   padding: ".5rem 3rem",
   borderRadius: "50px",
-  ":hover": { background: Cyan },
+  ":hover": { background: Inside },
 };
 
 const CButton = (props: ButtonProps): JSX.Element => {
