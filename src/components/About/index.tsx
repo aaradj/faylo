@@ -1,8 +1,10 @@
+// Custom Components
 import CHead from "../CHead";
 import CPara from "../CPara";
 import CButton from "../CButton";
-import { Main } from "./aboutStyle";
 
+// Style
+import { Main } from "./aboutStyle";
 
 const aboutImg = require("../../assets/images/about.png");
 

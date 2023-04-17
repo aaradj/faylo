@@ -26,4 +26,4 @@ const Main = styled.main`
   }
 `;
 
-export { Main } 
+export { Main };

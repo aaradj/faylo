@@ -8,42 +8,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import { Inside } from "../../style/colors";
 // Custome Components
 import CPara from "../CPara";
-
-// Styles
-const BoxStyle = {
-  display: "flex",
-  alignItems: "start",
-  justifyContent: "center",
-  width: "100%",
-  padding: "2rem 0",
-  "@media(max-width:700px)": {
-    flexDirection: "column",
-    gap: "2rem",
-  },
-};
-
-const BoxArticle = {
-  width: "20%",
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  gap: "1rem",
-  "@media(max-width:700px)": {
-    width: "100%",
-    alignItems: "start",
-  },
-};
-
-const SocailMedia = {
-  width: "20%",
-  display: "flex",
-  justifyContent: "center",
-  gap: "1rem",
-  "@media(max-width:700px)": {
-    width: "100%",
-    justifyContent: "start",
-  },
-};
+// Style
+import { BoxStyle, BoxArticle, SocailMedia } from "./aboutStyle";
 
 const Logos = { color: "white", "&:hover": { color: Inside } };
 

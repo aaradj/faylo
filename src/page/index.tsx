@@ -1,3 +1,4 @@
+// Components
 import About from "../components/About";
 import Features from "../components/Features";
 import StartForm from "../components/Form";

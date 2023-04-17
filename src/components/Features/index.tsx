@@ -1,32 +1,10 @@
-import styled from "styled-components";
+// Custom Components
 import CHead from "../CHead";
 import CPara from "../CPara";
+// Styled Components
+import { Div, Main } from "./features";
 
 function Features(): JSX.Element {
-  const Main = styled.div`
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    place-items: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-    margin-top:5rem;
-    @media(max-width:700px){
-        flex-direction:column;
-    }
-  `;
-  const Div = styled.div`
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding:0 2rem;
-    @media(max-width:700px){
-        width:100%;
-        padding:0;
-    }
-  `;
   return (
     <Main>
       <Div>
