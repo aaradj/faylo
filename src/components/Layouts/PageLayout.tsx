@@ -1,4 +1,5 @@
 import styled from "styled-components";
+// Components
 import Header from "../Header";
 import Footer from "../Footer";
 

@@ -1,8 +1,8 @@
 // Material Ui Compnents
 import { Box } from "@mui/material";
-// Styles
+// Styled Components
 import { HeaderStyle } from "./headerStyle";
-
+// Components
 import Navbar from "./Navbar";
 
 function Header(): JSX.Element {

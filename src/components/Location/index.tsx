@@ -1,39 +1,12 @@
-import styled from "styled-components";
+// Custom Components
 import CHead from "../CHead";
 import CPara from "../CPara";
+// Styled Components
+import { Div, Main } from "./locationStyle";
 
 function Location(): JSX.Element {
   const locationImg = require("../../assets/images/locaiton.png");
-  const Main = styled.div`
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-top: 4rem;
-    gap: 4rem;
-    img {
-      width: 50%;
-    }
-    @media (max-width: 700px) {
-      flex-direction: column;
-      img {
-        width: 400px;
-      }
-    }
-    @media (max-width: 400px) {
-      img {
-        width: 100%;
-      }
-    }
-  `;
-  const Div = styled.div`
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    @media (max-width: 700px) {
-      width: 100%;
-    }
-  `;
+
   return (
     <Main>
       <img src={locationImg} alt="location" />
