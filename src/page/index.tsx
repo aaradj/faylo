@@ -9,11 +9,13 @@ import Team from "../components/Team";
 function Main(): JSX.Element {
   return (
     <PageLayout>
+
       <About />
       <Features />
       <Location />
       <Team />
       <StartForm />
+      
     </PageLayout>
   );
 }
