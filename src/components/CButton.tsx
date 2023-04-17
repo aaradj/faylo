@@ -7,13 +7,14 @@ import { Cyan, Inside } from "../style/colors";
 
 interface ButtonProps {
   children: React.ReactNode;
+  onClick?: (e: React.MouseEvent<HTMLElement>) => void;
+  type?: 'submit' | 'reset' | 'button' | undefined;
 }
 
 // Custom Style
 const ButtonStyle = {
   background: Cyan,
   color: "white",
-  zIndex:"0",
   fontSize: "1rem",
   fontWeight: "bold",
   fontFamily: "Raleway",
@@ -22,7 +23,7 @@ const ButtonStyle = {
   ":hover": { background: Inside },
 };
 
-const CButton = (props: ButtonProps): JSX.Element => {
+const CButton:React.FunctionComponent<ButtonProps> = (props: ButtonProps) => {
   return (
     <Button variant="contained" sx={ButtonStyle}>
       {props.children}
