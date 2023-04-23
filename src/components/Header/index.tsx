@@ -6,7 +6,6 @@ import { HeaderStyle } from "./headerStyle";
 import Navbar from "./Navbar";
 
 function Header(): JSX.Element {
-
   return (
     <HeaderStyle>
       <Box>

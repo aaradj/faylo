@@ -6,7 +6,7 @@ import { Div, Main } from "./features";
 
 function Features(): JSX.Element {
   return (
-    <Main>
+    <Main id="features">
       <Div>
         <svg width="83" height="78" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">

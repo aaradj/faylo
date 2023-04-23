@@ -10,7 +10,7 @@ function Team() {
   const profile3 = require("../../assets/images/profile-3.jpg");
 
   return (
-    <Main>
+    <Main id="team">
       <Card>
         <CPara>
           Fylo has improved our team productivity by an order of magirude. Sinde

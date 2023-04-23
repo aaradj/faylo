@@ -35,7 +35,7 @@ function Navbar() {
       border: 1px solid rgba(255, 255, 255, 0.3);
       flex-direction: column;
       justify-content: space-evenly;
-      z-index:1;
+      z-index: 3;
     }
   `;
 
@@ -57,12 +57,12 @@ function Navbar() {
           </li>
         )}
         <li>
-          <a href="#">
+          <a href="#features" onClick={()=> setIsOpen(false)}>
             <CPara>Features</CPara>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#team" onClick={()=> setIsOpen(false)}>
             <CPara>Team</CPara>
           </a>
         </li>

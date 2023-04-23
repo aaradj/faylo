@@ -20,6 +20,7 @@ const ButtonStyle = {
   fontFamily: "Raleway",
   padding: ".5rem 3rem",
   borderRadius: "50px",
+  zIndex:"0",
   ":hover": { background: Inside },
 };
 
